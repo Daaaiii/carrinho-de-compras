@@ -4,16 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
+
     <title>Carrinho de Compras</title>
   </head>
+
   <body>
     <header>
       <div class="container">
-        <img src="./assets/logo.svg" alt=" logo da empresa" />
+        <img src="assets/logo.svg" alt="logo da empresa" />
         <input type="text" />
         <div>
-          <a href="#">Minha Conta</a>
-          <img src="./assets/carrinho.svg" alt="carrinho de compras" />
+          <a href="#">Minha conta</a>
+          <img src="assets/cart.svg" alt="carrinho de compras" />
         </div>
       </div>
     </header>
@@ -21,69 +23,95 @@
     <main class="cart">
       <div class="container">
         <div class="cart__title">
-          <img src="./assets/carrinho de compras.svg" alt="" />
+          <img src="assets/black-cart.svg" alt="carrinho de compras" />
           <h1>Seu carrinho de compras</h1>
         </div>
+
         <div class="cart__item">
           <div>
-            <img src="./assets/produto1.svg" alt="tênis" />
-            <div>
-              <h2>Nome do produto</h2>
-              <span>tamanho</span>
-              <span>cor</span>
-              <a href="#">Excluir do Carrinho</a>
-            </div>
-          </div>
-          <div class="cart__item__buttons">
-            <div>
-              <button>-</button>
-              <input type="number" />
-              <button>+</button>
-            </div>
-            <span>25 disponiveis</span>
-          </div>
-          <h1>R$330,00</h1>
-        </div>
-        <div class="cart__item">
-          <div>
-            <img src="./assets/produto2.svg" alt="tênis" />
+            <img src="assets/product1.png" alt="produto 1" />
+
             <div>
               <h2>Sneakers Air Wind</h2>
-              <span>tamanho</span>
-              <span>cor</span>
-              <a href="#">Excluir do Carrinho</a>
+              <span>Tamanho: 42</span>
+              <span>Cor: Nature</span>
+
+              <a href="#">Excluir do carrinho</a>
             </div>
           </div>
+
           <div class="cart__item__buttons">
             <div>
               <button>-</button>
               <input type="number" />
               <button>+</button>
             </div>
-            <span>25 disponiveis</span>
+
+            <span> 25 disponíveis</span>
           </div>
-          <h1>R$330,00</h1>
+          <h1>R$ 299,90</h1>
         </div>
+
         <div class="cart__item">
           <div>
-            <img src="./assets/produto3.svg" alt="tênis" />
+            <img src="assets/product2.png" alt="produto 2" />
+
             <div>
-              <h2>Nome do produto</h2>
-              <span>tamanho</span>
-              <span>cor</span>
-              <a href="#">Excluir do Carrinho</a>
+              <h2>Boné Angel Cap</h2>
+              <span>Tamanho: Único</span>
+              <span>Cor: Marrom</span>
+
+              <a href="#">Excluir do carrinho</a>
             </div>
           </div>
+
           <div class="cart__item__buttons">
             <div>
               <button>-</button>
               <input type="number" />
               <button>+</button>
             </div>
-            <span>25 disponiveis</span>
+
+            <span> 42 disponíveis</span>
           </div>
-          <h1>R$330,00</h1>
+          <h1>R$ 59,90</h1>
         </div>
+
+        <div class="cart__item">
+          <div>
+            <img src="assets/product3.png" alt="produto 1" />
+
+            <div>
+              <h2>Camisa Top Sem Mangas</h2>
+              <span>Tamanho: Único</span>
+              <span>Cor: Preto desbotado</span>
+              <a href="#">Excluir do carrinho</a>
+            </div>
+          </div>
+
+          <div class="cart__item__buttons">
+            <div>
+              <button>-</button>
+              <input type="number" />
+              <button>+</button>
+            </div>
+
+            <span> 25 disponíveis</span>
+          </div>
+          <h1>R$ 39,90</h1>
+        </div>
+
+        <hr />
+      </div>
+
+      <div class="cart__checkout">
+        <span>Frete: R$ 33</span>
+        <div>
+          <span>Total: </span>
+          <h1>R$ 300,00</h1>
+        </div>
+
+        <button>Finalizar Compra ></button>
       </div>
     </main>
   </body>
