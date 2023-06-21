@@ -7,6 +7,8 @@ Nesse repositório você vai encontrar o código desenvolvido no mini-curso da C
 # Tecnologias Utilizadas
 - HTML5
 - CSS3
+
+# Imagem da página
 ![Imagem da página](image.png)
 
 # Pontos que ainda precisam de atenção
